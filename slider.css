@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: 1s;
+    overflow-y: hidden;
+}
+
+.active{
+    opacity: 1;
+}
+.slider-img{
+    width: 100%;
+
+}
+.slider-inner{
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+    background-color: rgb(41, 40, 40,.8);
+    color: rgb(255 ,255, 255);
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+
+.buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.buttons a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.buttons a:hover{
+    background-color: rgb(41, 40, 40);
+}
